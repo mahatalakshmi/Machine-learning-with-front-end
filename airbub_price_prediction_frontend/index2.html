@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Starter Template - Materialize</title>
+
+</head>
+
+<body>
+  
+
+
+
+
+             
+    <form action='/predict' method="POST" class="col s12">
+            <label for="a"><b>neighbourhood_group</b></label>
+            <br>
+          <input   id="a" name='neighbourhood_group'type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+          <label for="b"><b>room_type </b></label>
+            <br>
+          <input id="b"  name="room_type" type="text" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="c"><b>minimum_nights</b></label>
+            <br>
+          <input id="c" name="minimum_nights" type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+          <label for="d"><b>calculated_host_listings_count</b></label>
+            <br>
+          <input id="d" name="calculated_host_listings_count" type="text" class="validate">
+        </div>
+        <div class="input-field col s4">
+          <label for="e"><b>availability_365</b></label>
+            <br>
+          <input id="e" name="availability_365" type="text" class="validate">
+
+        </div>
+
+      </div>
+
+      <div class="row center">
+
+          <button type="submit" class="btn-large waves-effect waves-light orange">Predict Probability</button>
+      </div>
+    </form>
+      </div>
+
+      <br><h4 align="center"<b>{{pred}}</b></h4>
+        <br>
+
+    </div>
+  </div>
+  </body>
+</html>
