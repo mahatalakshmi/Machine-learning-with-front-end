@@ -4,7 +4,7 @@ import pandas as pd
 import sklearn
 import numpy as np
 
-pipe = pickle.load(open('model4.pkl','rb'))
+pipe = pickle.load(open('model1.pkl','rb'))
 st.set_page_config(
     page_title="Diabetics prediction",
     page_icon="🧊",
